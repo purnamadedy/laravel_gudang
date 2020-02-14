@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lathihan individu 2</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body{
+            background-color: black;
+        }
+            .fa {
+            padding: 20px;
+            font-size: 20px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            }
+
+            .fa:hover {
+                opacity: 0.7;
+            }
+            .fa-linkedin {
+            color: white;
+            }
+            .fa-pinterest {
+            color: white;
+            }
+            .fa-instagram {
+            color: white;
+            }
+            .fa-youtube {
+            color: white;
+            }
+
+            .home {
+            width: 100%;
+            height: 1060px;
+            background-image: url(img/img1.gif);
+            background-position: center top;
+            background-size: cover;
+            }
+            .row{
+                margin-top: 80px;
+            }
+            .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+            }
+
+            .switch input { 
+            opacity: 0;
+            width: 0;
+            height: 0;
+            }
+
+            .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+            }
+
+            .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+            }
+
+            input:checked + .slider {
+            background-color: #2196F3;
+            }
+
+            input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+            }
+
+            input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+            }
+        	@media (min-width: 992px){
+                .navbar-barnd, .nav-link{
+                    color: white !important;
+                }
+                .nav-link{
+                    text-transform: uppercase;
+                    margin-right: 30px;
+                    margin-top: 2%;
+                }
+                .home {
+                width: 100%;
+                height: 1060px;
+                background-image: url(img/img1.gif);
+                background-position: center top;
+                background-size: cover;
+                }
+
+                .nav-link:hover::after {
+                content: '';
+                display: block;
+                border-bottom: 3px solid blue;
+                width: 50%;
+                margin: auto;
+                padding-bottom: 5px;
+                margin-bottom: -8px;
+                }
+                .container .display-4{
+                    color: white;
+                    text-align: center;
+                    margin-top: 150px;
+                    font-weight: 200;
+                }
+                .container p{
+                    color: white;
+                    margin-top: 30px;
+                    font-weight: 200;
+                    font-size: 50px;
+                    text-align: center;
+                }
+                .container .display-4 span {
+                    font-weight: 500;
+                }
+                .tombol{
+                    text-transform: uppercase;
+                    border-radius: 40px;
+                    margin-left: 500px;
+                    margin-top: 2%;
+                }
+                .container p span {
+                    font-weight: 500;
+                }
+                .row p{
+                    font-size: 15px;
+                }
+                .row{
+                    color: white;
+                }
+                .teks1{
+                    margin-left: 0px;
+                }
+                .teks2{
+                    margin-left: 70px;
+                }
+                .jumbotron1 p{
+                    text-align: center;
+                    color: white;
+                    font-size: 25px;
+                }
+                .jumbotron1{
+                    background-image: url(img/3ml43DT3.jpg);
+                    background-size: cover;
+                    height: 230px;
+                }
+                .container .display-5{
+                    color: white;
+                    text-align: center;
+                    margin-top: 150px;
+                    font-weight: 200;
+                }
+                .text1{
+                    text-align: center;
+                    color: white;
+                }
+                .text2{
+                    text-align: center;
+                    color: white;
+                }
+                .container p{
+                    color: white;
+                    text-align: center;
+                    font-size: 28px;
+                }
+                .card-title{
+                    color: black;
+                    text-align: center;
+                    margin-top: 10%;
+                }
+                .card-title1{
+                    color: black;
+                    text-align: center;
+                    margin-top: 10%;
+                    font-size: 50px;
+                }
+                #isi6{
+                    background-image: url(img/photo-1534258936925-c58bed479fcb.jpg);
+                    background-size: cover;
+                    height: 760px;
+                    width: 100%;
+                }
+                .jumbotron2{
+                    background-image: url(img/asWGcy80bk.jpg);
+                    background-size: cover;
+                    height: 530px;
+                }
+                .container .display-7{
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                    font-weight: 200;
+                    padding-top: 20%;
+                }
+                #gbr1{
+                    height:350px;
+                }
+                #gbr2{
+                    height:310px;
+                }
+                #gbr3{
+                    height:210px;
+                }
+                #gbr4{
+                    height:210px;
+                }
+                #gbr5{
+                    height:210px;
+                }
+                #gbr6{
+                    height:350px;
+                }
+                #gbr7{
+                    height:310px;
+                }
+                #footer {
+                    background-color: black;
+                    height: 75px;
+                }
+
+            }
+    </style>
+
+</head>
+<body>
+    <!-- Awal Navbar -->
+    <div class="home">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <div class="logo">
+                    <a class="text1" style="font-size:30px;color: white;" ><i class='fas fa-dumbbell' style='font-size:27px;color:red'></i> ACTIVITAR </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">ABOUT US</a>
+                        <a class="nav-item nav-link" href="#">SCHEDULE</a>
+                        <a class="nav-item nav-link" href="#">GALLERY</a>
+                        <a class="nav-item nav-link" href="#">BLOG</a>
+                        <a class="nav-item nav-link" href="#">CONTACTS</a>
+                        <a href="#" class="fa fa-pinterest"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <h1 class="display-4"> JOIN US NOW</h1>
+            <p><span>FITNES</span> & <span>SPORT</span></p>
+            <a href="" class="btn btn-success tombol">READ MORE</a>
+        </div>
+    </div>
+    <!-- Akhir Navbar -->
+
+     <!--Isi project1-->
+     <div class="container-fluid text-center" id="isi1">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card bg-dark text-center">
+                    <img src="img/gbr1.jpg" class="img-fluid" alt="Responsive image" style="height: 280px;">
+                    <div class="card-img-overlay">
+                        <h3>GROUP CLASSES</h3><br>
+                        <p>The Sopranos manages to address the biases and benefits of therapy</p>
+                        <a href="" class="btn btn-success">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card bg-dark text-center">
+                    <img src="img/gbr3.jpg" class="img-fluid" alt="Responsive image" style="width: 500px; height: 280px;">
+                    <div class="card-img-overlay">
+                        <h3>SPORT NUTRITON</h3><br>
+                        <p>Strep throat is very common during the flu seasons and it can be preceded</p>
+                        <a href="" class="btn btn-success">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+              <div class="col-sm-4">
+                <div class="card bg-dark text-center">
+                    <img src="img/gbr2.jpg" class="img-fluid" alt="Responsive image">
+                    <div class="card-img-overlay">
+                        <h3>SPORT NUTRITON</h3><br>
+                        <p>Strep throat is very common during the flu seasons and it can be preceded</p>
+                        <a href="" class="btn btn-success">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--akhir isi project1-->
+
+    <!--Isi project2-->
+    <br> <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="teks1">
+                    <h2>WELCOME TO CROSS</h2>
+                    <br>
+                    <h6>CrossFit is a cutting funcional fitness system that can help everyday men.</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti optio tempora animi vitae accusamus commodi, architecto enim ad, quae error aliquam rerum reprehenderit? Veniam, magnam animi? Ea molestias dicta mollitia.</p>
+                    <br>
+                    <a href="" class="btn btn-success">LEARN MORE</a>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="teks2">
+                    <img src="img/img 2.jpg"  class="img-fluid" style="width: 550px; height: 270px;" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+    </div>
+     <!--akhir isi project2-->
+
+     <!---isi project3-->
+    <div class="jumbotron1 jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-5"> <span>CHOOSE</span> YOUR PROGRAM</h1>
+          <p>Our Crossfit experts can help discover new traning technquies and exercises that offer a dynamic and efficient full body workout</p>
+        </div>
+    </div>
+      <!--akhir isi project3-->
+    
+       <!---isi project4-->
+    <br><br>
+    <div class="container-fluid" id="isi2">
+        <div class="card-group text-white">
+            <div class="card">
+                <img src="img/o.jpg" class="card-img-top" alt="...">
+                <div class="card-img-overlay">
+                    <br><br>
+                    <h3>CROSSFIT LEVEL1</h3><br>
+                    <p>Sufferers around the globe will be happy to hear that there are slepp apnea remedies</p>
+                    <a href="" class="btn btn-success">READ MORE</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/3.jpg" class="card-img-top" alt="...">
+                <div class="card-img-overlay">
+                    <br><br>
+                    <h3>CROSSFIT LEVEL1</h3><br>
+                    <p>Sufferers around the globe will be happy to hear that there are slepp apnea remedies</p>
+                    <a href="" class="btn btn-success">READ MORE</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/o.jpg" class="card-img-top" alt="...">
+                <div class="card-img-overlay">
+                    <br><br>
+                    <h3>CROSSFIT LEVEL1</h3><br>
+                    <p>Sufferers around the globe will be happy to hear that there are slepp apnea remedies</p>
+                    <a href="" class="btn btn-success">READ MORE</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/3.jpg" class="card-img-top" alt="...">
+                <div class="card-img-overlay">
+                    <br><br>
+                    <h3>CROSSFIT LEVEL1</h3><br>
+                    <p>Sufferers around the globe will be happy to hear that there are slepp apnea remedies</p>
+                    <a href="" class="btn btn-success">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!--akhir isi project4-->
+
+    <!---isi project5-->
+     <br><br>
+     <div class="container-fluid" id="isi3">
+         <h1 class="text1">CLASSTIME TABLE</h1>
+         <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">ALL CLASS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CROSSFIT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">LUNGE BALL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PPSR</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">WALLS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CANDY</a>
+            </li>
+          </ul>
+          <!----Tabels-->
+        <div class="continer">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="table-responsive-sm">
+                        <table class="table">
+                            <table class="table table-bordered table-secondary">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">TIME</th>
+                                    <th scope="col">MONDAY</th>
+                                    <th scope="col">TUESDAY</th>
+                                    <th scope="col">WEDNESDAY</th>
+                                    <th scope="col">THRUSDAY</th>
+                                    <th scope="col">FRIDAY</th>
+                                    <th scope="col">SATURDAY</th>
+                                    <th scope="col">SUNDAY</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">10:00</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Mahfudin</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">14:00</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Mohamad Musafar</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">16:00</th>
+                                    <td colspan="2"></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                        </table>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <!----Tabels-->
+     </div>
+     <!--akhir isi project5-->
+
+     <!----isi project 6-->
+     <br><br>
+     <div class="container-fluid" id="isi6">
+        <h1 class="text2">CHOOOSE YOUR PRICING PLAN</h1>
+        <p>These reports started to surface when Congres was having hearings about the painkiller vioxx. A Food and Drug Administartions staff member</p>
+        <div class="text-center">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card-deck">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">NORMAL</h5>
+                        <h5 class="card-title1">$55</h5>
+                        <p style="color: black;">MONTHLY</p>
+                        <p class="card-text" style="color: black;">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">PROFESIONAL</h5>
+                        <h5 class="card-title1">$95</h5>
+                        <p style="color: black;">MONTHLY</p>
+                        <p class="card-text" style="color: black;">This card has supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">ADVANCED</h5>
+                        <h5 class="card-title1">$165</h5>
+                        <p style="color: black;">MONTHLY</p>
+                        <p class="card-text" style="color: #000;">This is a wider card with supporting text below as a natural lead-in to.</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+     </div>
+     <!--akhir isi project6-->
+
+     <!---isi project7-->
+     <br><br>
+      <div class="container-fluid">
+          <h1 class="text3">WHY PEOPLE CHOOSE US</h1>
+          <P>our sport experts and latest sport equipments are the winning combination</P>
+        <div class="row text-white">
+            <div class="col-sm-4">
+                <br><br>
+                <i class='fas fa-headphones' style='font-size:48px;color:red'></i>
+                <h3>SUPPORT 24/24</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit voluptatum eaque recusandae.</p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fa fa-group" style="font-size:48px;color:red"></i>
+                <h3>OUR TRAINER</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia ipsam aut enim cum vitae dolore option.</p>
+            </div>
+            <div class="col-sm-4">
+                <br><br>
+                <i class='fas fa-heartbeat' style='font-size:48px;color:red'></i>
+                <h3>PERSONALIZED SESSIONS</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia ipsam aut enim cum vitae dolore option.</p>
+            </div>
+        </div>
+        <div class="row text-white">
+            <div class="col-sm-4">
+                <br><br>
+                <i class='fas fa-dumbbell' style='font-size:48px;color:red'></i>
+                <h3>OUR EQUIPMENTS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit voluptatum eaque recusandae.</p>
+            </div>
+            <div class="col-sm-4">
+                <br><br>
+                <i class='fas fa-stethoscope' style='font-size:48px;color:red'></i>
+                <h3>CLASSES DAILY</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia ipsam aut enim cum vitae dolore option.</p>
+            </div>
+            <div class="col-sm-4">
+                <br><br>
+                <i class='far fa-calendar' style='font-size:48px;color:red'></i>
+                <h3>FOCUS ON YOUR HEALTH</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia ipsam aut enim cum vitae dolore option.</p>
+            </div>
+        </div>
+      </div>
+       <!--akhir isi project6-->
+
+      <!-----jumbotron awal--------->
+      <br><br><br><br>
+        <div class="jumbotron2 jumbotron-fluid">
+            <div class="container text-center">
+              <h1 class="display-7"><b>GYM IN DOWTOWONM NEW YORK</b></h1>
+              <i class="fa fa-play-circle-o" style="font-size:100px;color :coral"></i>
+            </div>
+        </div>
+    <!----jumbotron akhir-------->
+    <br><br><br><br>
+    <div class="container text-center">
+        <h2 style="color: white;">FORM OUR BLOG</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="img/foto1.jpg" class="card-img" alt="" id="gbr1">
+                </div><br>
+                <div class="card">
+                    <img src="img/foto2.jpg" class="card-img" alt="" id="gbr2">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="img/foto3.jpg" class="card-img" alt="" id="gbr3">
+                </div><br>
+                <div class="card">
+                    <img src="img/foto4.jpg" class="card-img" alt="" id="gbr4">
+                </div><br>
+                <div class="card">
+                    <img src="img/foto5.jpg" class="card-img" alt="" id="gbr5">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="img/foto6.jpg" class="card-img" alt="" id="gbr6">
+                </div><br>
+                <div class="card">
+                    <img src="img/foto7.jpg" class="card-img" alt="" id="gbr7">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---Maps Awal-->
+    <br><br>
+    <div class="container-fluid">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31737.193298854698!2d106.14151032429488!3d-6.110610594904544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b0dbb534a61%3A0x301e8f1fc28b8d0!2sSerang%2C%20Serang%20City%2C%20Banten!5e0!3m2!1sen!2sid!4v1581589727699!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </div>
+    <!---Maps akhir-->
+    <!----Footer---->
+    <br><br>
+    <div class="container-fluid" style="color: whitesmoke;">
+        <div class="row">
+          <div class="col-sm-3">
+            <br><br><h5><i class='fas fa-dumbbell' style='font-size:24px;color:orangered'></i> ACTIVITAR</h5><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ab consectetur cupiditate culpa similique.</p>
+            <h6>FOLLOW US</h5>
+            <p><i class="fa fa-facebook-f m-2" style="color: whitesmoke;"></i> <i class="fa fa-twitter m-2" style="color: whitesmoke;"></i> <i class="fa fa-google-plus m-2" style="color: whitesmoke;"></i> 
+              <i class="fa fa-linkedin m-2" style="color: whitesmoke;"></i> <i class="fa fa-instagram m-2" style="color: whitesmoke;"></i></p>
+          </div>
+          <div class="col-sm-3">
+            <br><br><h5>OUR BLOG</h5><br>
+            <h6>MOST PEOPLE WHO WORK</h6>
+            <small><i class="fa fa-clock-o" style="color: orangered;"></i>JAN 02, 2019</small>
+            <h6>FREELANCE DESIGN TRICKS HOW</h6>
+            <small><i class="fa fa-clock-o" style="color: orangered;"></i>JAN 02, 2019</small>
+            <h6>HAVE A COMPUTER AT HOME HAVE HAD</h6>
+            <small><i class="fa fa-clock-o" style="color: orangered;"></i>JAN 02, 2019</small>
+          </div>
+          <div class="col-sm-3">
+            <br><br><h5>PROGRAM</h5><br>
+            <h6>Bodybuilding</h6>
+            <br>
+            <h6>Running</h6>
+            <br>
+            <h6>Streching</h6>
+            <br>
+            <h6>Weight Loss</h6>
+            <br>
+            <h6>Gym Fitness</h6>
+          </div>
+          <div class="col-sm-3">
+            <br><br><h5>GET INFO</h5><br>
+              <h6><i class="fa fa-phone" style="font-size:24px; color: orangered;"></i> Phone:</h6>
+              <p>(12) 345 768976</p>
+              <h6><i class="fa fa-envelope" style="font-size:24px; color: orangered;"></i> Email:</h6>
+              <p>Fitness.info@gmail.com</p>
+              <h6><i class="fa fa-map-marker" style="font-size:24px; color: orangered;"></i> Address:</h6>
+              <p>Iris Watson, Box 238 2345 NY</p><br>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid text-center" id="footer">
+        <div class="row">
+          <div class="col-sm-12">
+            <br><p style="color: whitesmoke;">Copyright 2020 All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    <!----isi Footer---->
+	
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
